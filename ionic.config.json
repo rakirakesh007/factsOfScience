@@ -1,0 +1,7 @@
+{
+  "name": "Science Facts",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
