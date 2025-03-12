@@ -5,15 +5,15 @@ import { FormsModule } from '@angular/forms';
 
 import { HomePage } from './home.page';
 import { HomePageRoutingModule } from './home-routing.module';
-import { MessageComponentModule } from '../message/message.module';
+import { FactDetailsModule } from '../fact-details/fact-details.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MessageComponentModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    FactDetailsModule
   ],
   declarations: [HomePage]
 })
